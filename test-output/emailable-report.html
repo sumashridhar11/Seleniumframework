@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">52,004</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.Test2</td><td><a href="#m0">DemoTest2</a></td><td rowspan="1">1572871107925</td><td rowspan="1">19372</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.Test1</td><td><a href="#m1">Demo</a></td><td rowspan="1">1572871087092</td><td rowspan="1">10475</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">test.Test2#DemoTest2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=78.0.3904.70)
+  (Driver info: chromedriver=77.0.3865.10 (bc3579f611bbc73331171afe020ec7a45e6ccc55-refs/branch-heads/3865@{#93}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;YCSLAP0062&apos;, ip: &apos;192.168.2.148&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 5d315644408c44cfea5dc16d00ba2501
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{javascriptEnabled=true, acceptSslCerts=false, browserName=chrome, chrome={userDataDir=C:\Users\SUMABA~1.YET\AppData\Local\Temp\scoped_dir15436_2098141960, chromedriverVersion=77.0.3865.10 (bc3579f611bbc73331171afe020ec7a45e6ccc55-refs/branch-heads/3865@{#93})}, networkConnectionEnabled=false, mobileEmulationEnabled=false, setWindowRect=true, version=78.0.3904.70, takesHeapSnapshot=true, nativeEvents=true, proxy={}, strictFileInteractability=false, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false, platform=WIN8, unexpectedAlertBehaviour=ignore, rotatable=false, locationContextEnabled=true, goog:chromeOptions={debuggerAddress=localhost:59286}, pageLoadStrategy=normal, timeouts={pageLoad=300000, implicit=0, script=30000}, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at test.Test2.DemoTest2(Test2.java:35)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.Test1#Demo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
