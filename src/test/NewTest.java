@@ -7,5 +7,8 @@ public class NewTest {
   public void f() {
 	  
 	  System.out.println("push");
+	  System.out.println("push1");
+	  System.out.println("push2");
+	  System.out.println("push3");
   }
 }
