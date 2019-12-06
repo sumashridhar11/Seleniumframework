@@ -19,5 +19,14 @@ public class NewTest {
 		  System.out.println("pushg1");
 		  System.out.println("pushg2");
 		  System.out.println("pushg3");
+	  }
+		  
+		  @Test
+		  public void h() {
+			  
+			  System.out.println("pushh");
+			  System.out.println("pushh1");
+			  System.out.println("pushh2");
+			  System.out.println("pushh3");  
   }
 }
